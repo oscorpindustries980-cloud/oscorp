@@ -17,6 +17,7 @@ import industrialHero from "@/assets/industrial-hero.jpg";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
+import { StatusBadge } from "@/components/status-badge";
 import { currency, trackingStage, usePortal, type Quotation } from "@/lib/portal-store";
 
 export const Route = createFileRoute("/")({
